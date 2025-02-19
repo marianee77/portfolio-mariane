@@ -1,0 +1,139 @@
+:root {
+    --cor-texto: #a34d9c;
+    --cor-fundo: #c687da;
+    --cor-titulo: #7a3f7b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    padding: 15px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-itens {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-itens li a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: bold;
+}
+
+h2 a {
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+
+.titulo-pag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.titulo-pag h1 {
+    color: var(--cor-titulo);
+    border-bottom: 2px solid var(--cor-titulo);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo-pag img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sobre-mim h2 {
+    color: var(--cor-titulo);
+    margin-bottom: 10px;
+}
+
+.sobre-mim p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--cor-texto);
+}
+
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contato h2 {
+    color: var(--cor-texto);
+    margin-bottom: 20px;
+}
+
+.contato-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.contato-links a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.contato-links img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-weight: bold;
+}
